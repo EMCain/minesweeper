@@ -1,0 +1,15 @@
+#board {
+	border: 2px solid black; 
+}
+
+#board td {
+	background-color: blue;
+	border: 3px solid white; 
+	width: 25px; 
+	height: 25px;	
+	text-align: center;
+}
+
+#board td.revealed {
+	background-color: #EEEEEE;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+<meta charset="utf-8"/>
+<link href="./minesweeper.css" rel="stylesheet">
+<script src="./minesweeper.js"></script>
+</head>
+<body>
+<h1>Welcome to Minesweeper</h1>
+<p><strong>Wins: </strong><span id="wins">0</span></p>
+<p><strong>Losses: </strong><span id="losses">0</span></p>
+	<table id="board">
+	</table>
+<h2>New Game</h2>
+<label for="height">Height: </label>
+<input id="height" type="number" min="5" max="25" value="7">
+<label for="width">Width: </label>
+<input id="width" type="number" min="5" max="25" value="7">
+<label for="mines">Mines: </label>
+<input id="mines" type="number" min="3" max="100" value="5">
+
+	
+<button id="new_game">Start Game</button>
+</body>
+</html>
